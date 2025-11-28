@@ -1,0 +1,8 @@
+{
+  "name": "Event Horizon - Attendee Wall",
+  "description": "An interactive event wall displaying floating attendee profiles and a real-time chat feed, featuring AI-generated participant simulation.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
