@@ -176,7 +176,7 @@ const App: React.FC = () => {
         }
 
         const replyText = await generateBotReply(promptToSend, messages, knowledgeBase);
-        addMessage('bot', 'Event MC (AI)', 'https://picsum.photos/id/444/200/200', replyText);
+        addMessage('bot', 'น้องช่างนิด ช่างน้อย', 'https://profile.line-scdn.net/0heU5OlBqPOnoINiUP_A9FLTRzNBd_GDwycAJ3HnpiMRkjVi55NgN2SH4wYk8iVSgkMVV2HSo3NEon', replyText);
         
         if (isSoundEnabled) {
             setIsBotSpeaking(true);
@@ -201,7 +201,7 @@ const App: React.FC = () => {
         }
 
         if (reply) {
-             addMessage('bot', 'Event MC (AI)', 'https://picsum.photos/id/444/200/200', reply);
+             addMessage('bot', 'น้องช่างนิด ช่างน้อย', 'https://profile.line-scdn.net/0heU5OlBqPOnoINiUP_A9FLTRzNBd_GDwycAJ3HnpiMRkjVi55NgN2SH4wYk8iVSgkMVV2HSo3NEon', reply);
              
              if (isSoundEnabled) {
                 setIsBotSpeaking(true);
@@ -237,7 +237,7 @@ const App: React.FC = () => {
         <div className="absolute top-6 left-6 pointer-events-auto z-20 flex flex-col gap-4">
           <div className="bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/10 shadow-xl max-w-sm">
             <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 mb-2">
-              Event Horizon
+                SmartPR - RETC-101
             </h1>
             <div className="flex items-center gap-2 mb-4 text-slate-300">
                 <Users size={18} className="text-blue-400" />
