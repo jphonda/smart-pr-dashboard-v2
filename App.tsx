@@ -84,7 +84,7 @@ const App: React.FC = () => {
                     id: `sheet-${p.id || index}`,
                     name: p.name || 'Guest',
                     role: p.role || 'Participant',
-                    avatarUrl: p.image || `https://ui-avatars.com/api/?name=${encodeURIComponent(p.name || 'G')}&background=random`,
+                    avatarUrl: p.profile || `https://ui-avatars.com/api/?name=${encodeURIComponent(p.name || 'G')}&background=random`,
                     x: startX,
                     y: startY,
                     baseX: startX,

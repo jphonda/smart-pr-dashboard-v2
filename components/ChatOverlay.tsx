@@ -108,8 +108,8 @@ export const ChatOverlay: React.FC<ChatOverlayProps> = ({
         const mappedMessages: ChatMessage[] = data.map((item, index) => ({
             id: `world-${item.id || index}`,
             userId: `user-${item.id || index}`,
-            userName: item.name || 'Anonymous',
-            userAvatar: `https://picsum.photos/id/${(item.id || index) % 1000}/100/100`,
+            userName: item.user || 'Anonymous',
+            userAvatar: item.profile || `https://picsum.photos/id/${(item.id || index) % 1000}/100/100`,
             text: item.message || '...',
             timestamp: new Date()
         }));

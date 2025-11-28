@@ -46,7 +46,7 @@ export const generateFakeAttendees = async (count: number = 3): Promise<Generate
 
 export const fetchKnowledgeBase = async (): Promise<TrainingData[]> => {
     try {
-        const response = await fetch('https://api.sheety.co/423538c420e6cba4d60e9a41d250224e/isanInnovation/traning');
+        const response = await fetch('https://api.sheety.co/423538c420e6cba4d60e9a41d250224e/chatGpt/traning');
         const data = await response.json();
         return data.traning || [];
     } catch (error) {
